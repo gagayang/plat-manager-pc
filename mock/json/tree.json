@@ -1,0 +1,1279 @@
+{
+  "code": 0,
+  "message": "",
+  "data": [
+    {
+      "regionCode": "110000000000",
+      "regionName": "北京市",
+      "level": 1,
+      "children": [
+        {
+          "regionCode": "110100000000",
+          "regionName": "北京市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "110101000000",
+              "regionName": "东城区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110102000000",
+              "regionName": "西城区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110105000000",
+              "regionName": "朝阳区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110106000000",
+              "regionName": "丰台区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110107000000",
+              "regionName": "石景山区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110108000000",
+              "regionName": "海淀区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110109000000",
+              "regionName": "门头沟区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110111000000",
+              "regionName": "房山区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110112000000",
+              "regionName": "通州区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110113000000",
+              "regionName": "顺义区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110114000000",
+              "regionName": "昌平区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110115000000",
+              "regionName": "大兴区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110116000000",
+              "regionName": "怀柔区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110117000000",
+              "regionName": "平谷区",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "110200000000",
+          "regionName": "县",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "110228000000",
+              "regionName": "密云县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "110229000000",
+              "regionName": "延庆县",
+              "level": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionCode": "120000000000",
+      "regionName": "天津市",
+      "level": 1,
+      "children": [
+        {
+          "regionCode": "120100000000",
+          "regionName": "天津市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "120101000000",
+              "regionName": "和平区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120102000000",
+              "regionName": "河东区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120103000000",
+              "regionName": "河西区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120104000000",
+              "regionName": "南开区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120105000000",
+              "regionName": "河北区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120106000000",
+              "regionName": "红桥区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120110000000",
+              "regionName": "东丽区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120111000000",
+              "regionName": "西青区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120112000000",
+              "regionName": "津南区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120113000000",
+              "regionName": "北辰区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120114000000",
+              "regionName": "武清区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120115000000",
+              "regionName": "宝坻区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120116000000",
+              "regionName": "滨海新区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120117000000",
+              "regionName": "宁河区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "120118000000",
+              "regionName": "静海区",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "120200000000",
+          "regionName": "县",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "120225000000",
+              "regionName": "蓟县",
+              "level": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionCode": "130000000000",
+      "regionName": "河北省",
+      "level": 1,
+      "children": [
+        {
+          "regionCode": "130100000000",
+          "regionName": "石家庄市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130102000000",
+              "regionName": "长安区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130104000000",
+              "regionName": "桥西区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130105000000",
+              "regionName": "新华区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130107000000",
+              "regionName": "井陉矿区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130108000000",
+              "regionName": "裕华区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130109000000",
+              "regionName": "藁城区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130110000000",
+              "regionName": "鹿泉区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130111000000",
+              "regionName": "栾城区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130121000000",
+              "regionName": "井陉县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130123000000",
+              "regionName": "正定县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130125000000",
+              "regionName": "行唐县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130126000000",
+              "regionName": "灵寿县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130127000000",
+              "regionName": "高邑县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130128000000",
+              "regionName": "深泽县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130129000000",
+              "regionName": "赞皇县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130130000000",
+              "regionName": "无极县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130131000000",
+              "regionName": "平山县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130132000000",
+              "regionName": "元氏县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130133000000",
+              "regionName": "赵县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130183000000",
+              "regionName": "晋州市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130184000000",
+              "regionName": "新乐市",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130200000000",
+          "regionName": "唐山市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130202000000",
+              "regionName": "路南区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130203000000",
+              "regionName": "路北区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130204000000",
+              "regionName": "古冶区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130205000000",
+              "regionName": "开平区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130207000000",
+              "regionName": "丰南区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130208000000",
+              "regionName": "丰润区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130209000000",
+              "regionName": "曹妃甸区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130223000000",
+              "regionName": "滦县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130224000000",
+              "regionName": "滦南县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130225000000",
+              "regionName": "乐亭县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130227000000",
+              "regionName": "迁西县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130229000000",
+              "regionName": "玉田县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130281000000",
+              "regionName": "遵化市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130283000000",
+              "regionName": "迁安市",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130300000000",
+          "regionName": "秦皇岛市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130302000000",
+              "regionName": "海港区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130303000000",
+              "regionName": "山海关区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130304000000",
+              "regionName": "北戴河区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130306000000",
+              "regionName": "抚宁区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130321000000",
+              "regionName": "青龙满族自治县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130322000000",
+              "regionName": "昌黎县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130324000000",
+              "regionName": "卢龙县",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130400000000",
+          "regionName": "邯郸市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130402000000",
+              "regionName": "邯山区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130403000000",
+              "regionName": "丛台区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130404000000",
+              "regionName": "复兴区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130406000000",
+              "regionName": "峰峰矿区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130421000000",
+              "regionName": "邯郸县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130423000000",
+              "regionName": "临漳县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130424000000",
+              "regionName": "成安县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130425000000",
+              "regionName": "大名县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130426000000",
+              "regionName": "涉县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130427000000",
+              "regionName": "磁县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130428000000",
+              "regionName": "肥乡县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130429000000",
+              "regionName": "永年县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130430000000",
+              "regionName": "邱县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130431000000",
+              "regionName": "鸡泽县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130432000000",
+              "regionName": "广平县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130433000000",
+              "regionName": "馆陶县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130434000000",
+              "regionName": "魏县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130435000000",
+              "regionName": "曲周县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130481000000",
+              "regionName": "武安市",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130500000000",
+          "regionName": "邢台市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130502000000",
+              "regionName": "桥东区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130503000000",
+              "regionName": "桥西区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130521000000",
+              "regionName": "邢台县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130522000000",
+              "regionName": "临城县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130523000000",
+              "regionName": "内丘县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130524000000",
+              "regionName": "柏乡县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130525000000",
+              "regionName": "隆尧县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130526000000",
+              "regionName": "任县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130527000000",
+              "regionName": "南和县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130528000000",
+              "regionName": "宁晋县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130529000000",
+              "regionName": "巨鹿县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130530000000",
+              "regionName": "新河县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130531000000",
+              "regionName": "广宗县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130532000000",
+              "regionName": "平乡县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130533000000",
+              "regionName": "威县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130534000000",
+              "regionName": "清河县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130535000000",
+              "regionName": "临西县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130581000000",
+              "regionName": "南宫市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130582000000",
+              "regionName": "沙河市",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130600000000",
+          "regionName": "保定市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130602000000",
+              "regionName": "竞秀区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130606000000",
+              "regionName": "莲池区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130607000000",
+              "regionName": "满城区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130608000000",
+              "regionName": "清苑区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130609000000",
+              "regionName": "徐水区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130623000000",
+              "regionName": "涞水县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130624000000",
+              "regionName": "阜平县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130626000000",
+              "regionName": "定兴县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130627000000",
+              "regionName": "唐县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130628000000",
+              "regionName": "高阳县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130629000000",
+              "regionName": "容城县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130630000000",
+              "regionName": "涞源县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130631000000",
+              "regionName": "望都县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130632000000",
+              "regionName": "安新县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130633000000",
+              "regionName": "易县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130634000000",
+              "regionName": "曲阳县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130635000000",
+              "regionName": "蠡县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130636000000",
+              "regionName": "顺平县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130637000000",
+              "regionName": "博野县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130638000000",
+              "regionName": "雄县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130681000000",
+              "regionName": "涿州市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130683000000",
+              "regionName": "安国市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130684000000",
+              "regionName": "高碑店市",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130700000000",
+          "regionName": "张家口市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130702000000",
+              "regionName": "桥东区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130703000000",
+              "regionName": "桥西区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130705000000",
+              "regionName": "宣化区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130706000000",
+              "regionName": "下花园区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130721000000",
+              "regionName": "宣化县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130722000000",
+              "regionName": "张北县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130723000000",
+              "regionName": "康保县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130724000000",
+              "regionName": "沽源县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130725000000",
+              "regionName": "尚义县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130726000000",
+              "regionName": "蔚县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130727000000",
+              "regionName": "阳原县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130728000000",
+              "regionName": "怀安县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130729000000",
+              "regionName": "万全县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130730000000",
+              "regionName": "怀来县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130731000000",
+              "regionName": "涿鹿县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130732000000",
+              "regionName": "赤城县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130733000000",
+              "regionName": "崇礼县",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130800000000",
+          "regionName": "承德市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130802000000",
+              "regionName": "双桥区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130803000000",
+              "regionName": "双滦区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130804000000",
+              "regionName": "鹰手营子矿区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130821000000",
+              "regionName": "承德县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130822000000",
+              "regionName": "兴隆县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130823000000",
+              "regionName": "平泉县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130824000000",
+              "regionName": "滦平县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130825000000",
+              "regionName": "隆化县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130826000000",
+              "regionName": "丰宁满族自治县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130827000000",
+              "regionName": "宽城满族自治县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130828000000",
+              "regionName": "围场满族蒙古族自治县",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "130900000000",
+          "regionName": "沧州市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "130902000000",
+              "regionName": "新华区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130903000000",
+              "regionName": "运河区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130921000000",
+              "regionName": "沧县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130922000000",
+              "regionName": "青县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130923000000",
+              "regionName": "东光县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130924000000",
+              "regionName": "海兴县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130925000000",
+              "regionName": "盐山县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130926000000",
+              "regionName": "肃宁县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130927000000",
+              "regionName": "南皮县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130928000000",
+              "regionName": "吴桥县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130929000000",
+              "regionName": "献县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130930000000",
+              "regionName": "孟村回族自治县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130981000000",
+              "regionName": "泊头市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130982000000",
+              "regionName": "任丘市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130983000000",
+              "regionName": "黄骅市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "130984000000",
+              "regionName": "河间市",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "131000000000",
+          "regionName": "廊坊市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "131002000000",
+              "regionName": "安次区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131003000000",
+              "regionName": "广阳区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131022000000",
+              "regionName": "固安县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131023000000",
+              "regionName": "永清县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131024000000",
+              "regionName": "香河县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131025000000",
+              "regionName": "大城县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131026000000",
+              "regionName": "文安县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131028000000",
+              "regionName": "大厂回族自治县",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131081000000",
+              "regionName": "霸州市",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131082000000",
+              "regionName": "三河市",
+              "level": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "regionCode": "131100000000",
+          "regionName": "衡水市",
+          "level": 2,
+          "children": [
+            {
+              "regionCode": "131102000000",
+              "regionName": "桃城区",
+              "level": 3,
+              "children": []
+            },
+            {
+              "regionCode": "131121000000",
+              "regionName": "枣强县",
+              "level": 3,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timestamp": 1541146090203
+}

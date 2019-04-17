@@ -1,0 +1,372 @@
+{
+  "code": 0,
+  "data": {
+    "meta": {
+      "type": "base-form",
+      "path": "",
+      "id":"sys_code_form",
+      "code": "sys_code_form",
+      "title": "测试新增",
+      "script": "const form = window.helpSpace.sys_code_form.form; form.addListener(['prodBrand'], function(value) { form.setValue('subProdBrand', '')}, true, false)",
+      "buttons":[
+        {
+          "name": "保存",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "path": "/form/sys_code",
+            "callback": {
+              "refresh": false
+            }
+          }
+        },
+        {
+          "name": "取消",
+          "icon": null,
+          "event": {
+            "type": "cancel",
+            "callback": {
+              "refresh": true
+            }
+          }
+        },
+        {
+          "name": "重置",
+          "icon": null,
+          "event": {
+            "type": "reset",
+            "callback": {
+              "refresh": true
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "name": "productName1",
+          "inputModel": "input",
+          "title": "产品名称",
+          "value": "",
+          "disabled": false,
+          "placeholder":"请输入产品名称",
+          "isHidden": false,
+          "validate": {
+            "required": true,
+            "maxLength": 51,
+            "sameAs": "attribute3"
+          }
+        },
+        {
+          "name": "password",
+          "inputModel": "password",
+          "title": "密码",
+          "value": "",
+          "placeholder":"请输入密码",
+          "isHidden": false,
+          "validate": {
+            "required": true
+          }
+        },
+        {
+          "name": "prodBrand",
+          "inputModel": "select",
+          "title": "产品品牌",
+          "value": "",
+          "placeholder":"请选择产品品牌",
+          "path":"/getBrandInfo",
+          "isHidden": false,
+          "immediate": true,
+          "validate": {
+            "required": true
+          },
+          "paramsMaping": {
+            "value": "value",
+            "label": "label"
+          },
+          "target": [{
+            "name": "subProdBrand",
+            "params": "brand"
+          }]
+        },
+        {
+          "name": "subProdBrand",
+          "inputModel": "select",
+          "title": "产品子品牌",
+          "value": [],
+          "immediate": false,
+          "path":"/getSubBrandInfo",
+          "placeholder":"请选择产品品牌",
+          "isHidden": false,
+          "params":["xxxx_id"],
+          "validate": {
+            "required": true
+          }
+        },
+        {
+          "name": "immidately",
+          "inputModel": "switch",
+          "title": "立即配送",
+          "value": false
+        },
+        {
+          "name": "activeType",
+          "inputModel": "checkbox",
+          "title": "活动性质",
+          "value": [],
+          "isHidden": false,
+          "validate": {
+            "required": false
+          },
+          "options": [
+            {
+              "value": 1,
+              "label": "美食/餐厅线上活动"
+            },
+            {
+              "value": 2,
+              "label": "地推活动"
+            },
+            {
+              "value": 3,
+              "label": "线下主题活动"
+            },
+            {
+              "value": 4,
+              "label": "单纯品牌曝光"
+            }
+          ]
+        },
+        {
+          "name": "activeDate",
+          "inputModel": "single-date-picker",
+          "title": "活动时间",
+          "placeholder":"请选择活动时间",
+          "disable": true,
+          "value": "",
+          "isHidden": false,
+          "validate": {
+            "minValue": "2018-01-01"
+          }
+        },
+        {
+          "name": "activeWeek",
+          "inputModel": "week-picker",
+          "title": "活动时间周",
+          "placeholder":"请选择活动周",
+          "value": {
+            "start":"",
+            "end": ""
+          },
+          "isHidden": false,
+          "quickCard": {
+            "months": {
+              "before": 1,
+              "after": 0
+            }
+          }
+        },
+        {
+          "name": "activeMonth",
+          "inputModel": "month-picker",
+          "title": "活动时间月",
+          "placeholder":"请选择活动月",
+          "value": {
+            "start":"",
+            "end": ""
+          },
+          "format": "YYYY-MM-DD",
+          "isHidden": false
+        },
+        {
+          "name": "activeDateRange",
+          "inputModel": "double-date-picker",
+          "title": "活动时间范围",
+          "value": {
+            "start":"",
+            "end": ""
+          },
+          "isHidden": false,
+          "validate": {
+            "required": false,
+            "maxValue": "2019-09-01",
+            "minValue": "2018-08-01"
+          },
+          "quickCard": {
+            "months": {
+              "before": 1,
+              "after": 0
+            },
+            "years": {
+              "before": 1,
+              "after": 2
+            },
+            "days": {
+              "before": 1,
+              "after": 2
+            }
+          }
+        },
+        {
+          "name": "area",
+          "inputModel": "common-tree",
+          "title": "所属地域",
+          "placeholder":"请选择所属地域",
+          "path":"/tree",
+          "lazy": false,
+          "multi": true,
+          "paramsMaping": {
+            "children": "children",
+            "id": "regionCode",
+            "isLeaf": "leaf",
+            "label": "regionName"
+          },
+          "baseParams": {
+            "id": 1
+          },
+          "params": [
+            "id"
+          ],
+          "value": [{
+            "regionCode": "130800000000",
+            "regionName": "承德市",
+            "level": 2
+          }],
+          "isHidden": false,
+          "validate": {
+            "required": true
+          }
+        },
+        {
+          "name": "attribute1",
+          "inputModel": "text",
+          "title": "属性1",
+          "value": "",
+          "placeholder":"请输入属性1",
+          "isHidden": false,
+          "validate": {
+            "required": false,
+            "maxLength": 6,
+            "minLength": 4
+          }
+        },
+        {
+          "name": "attribute2",
+          "inputModel": "text",
+          "title": "属性2",
+          "value": "",
+          "placeholder":"请输入属性2",
+          "isHidden": false
+        },
+        {
+          "name": "attribute3",
+          "inputModel": "text",
+          "title": "属性3",
+          "value": "",
+          "placeholder":"请输入属性3",
+          "isHidden": false
+        },
+        {
+          "name": "attribute5",
+          "inputModel": "multiple-report",
+          "title": "测试多选表",
+          "value": [{
+            "id":"2",
+            "prodPer": "10",
+            "prodBrand": "可口可乐110",
+            "prodType": "饮料",
+            "creatTime": "2018-3-1",
+            "updateTime": {
+              "value": "2018-4-1"
+            },
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          }],
+          "placeholder":"请选择多选表",
+          "isHidden": false,
+          "textValueProps": "prodBrand",
+          "configKey": "%2Freport%2Fmeta%2Fsys_code",
+          "params": [{
+            "name": "productName1",
+            "value": "",
+            "required": true
+          }]
+        },
+        {
+          "name": "attribute7",
+          "inputModel": "single-report",
+          "title": "测试单选表",
+          "value": {},
+          "placeholder":"请选择多选表",
+          "isHidden": false,
+          "textValueProps": "prodBrand",
+          "configKey": "%2Freport%2Fmeta%2Fsys_code",
+          "params": [{
+            "name": "productName1",
+            "value": "",
+            "required": true
+          }]
+        },
+        {
+          "name": "attribute3",
+          "inputModel": "input",
+          "title": "属性3",
+          "value": "/report/meta/sys_code",
+          "placeholder":"请输入属性3",
+          "isHidden": false
+        }
+      ],
+      "subForms": [
+        {
+          "layout": "table",
+          "code":"testSubFormA",
+          "items": [
+            {
+              "name": "productName1",
+              "inputModel": "input",
+              "title": "产品名称",
+              "value": "",
+              "placeholder":"请输入产品名称",
+              "isHidden": true,
+              "validate": {
+                "minLength": 5
+              }
+            },
+            {
+              "name": "productPriceSubForm",
+              "inputModel": "input",
+              "title": "产品价格",
+              "value": "",
+              "placeholder":"请输入产品价格",
+              "isHidden": false,
+              "validate": {
+                "minLength": 5
+              }
+            },
+            {
+              "name": "attribute5SubForm",
+              "inputModel": "multiple-report",
+              "title": "测试多选表",
+              "value": [],
+              "placeholder":"请选择多选表",
+              "isHidden": false,
+              "textValueProps": "prodBrand",
+              "configKey": "%2Freport%2Fmeta%2Fsys_code"
+            },
+            {
+              "name": "attribute7SubForm",
+              "inputModel": "single-report",
+              "title": "测试单选表",
+              "value": {},
+              "placeholder":"请选择多选表",
+              "isHidden": false,
+              "textValueProps": "prodBrand",
+              "configKey": "%2Freport%2Fmeta%2Fsys_code"
+            }
+          ],
+          "values": []
+        }
+      ]
+    }
+  }
+}

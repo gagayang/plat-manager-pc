@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "regionCode": 110000,
+      "regionName": "北京市"
+    },
+    {
+      "regionCode": 130000,
+      "regionName": "河北省"
+    },
+    {
+      "regionCode": 120000,
+      "regionName": "上海市"
+    },
+    {
+      "regionCode": 140000,
+      "regionName": "山西省"
+    },
+    {
+      "regionCode": 150000,
+      "regionName": "山东省"
+    },
+    {
+      "regionCode": 160000,
+      "regionName": "河南省"
+    }
+  ]
+}

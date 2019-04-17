@@ -1,0 +1,253 @@
+{
+  "code": 0,
+  "data": {
+    "meta": {
+      "type": "dashboard",
+      "items": [
+        {
+          "type": "Line",
+          "data": {
+            "path": "/report/data/test_dashboard"
+          },
+          "columns": [
+            {
+              "name": "date",
+              "title": "日期"
+            },
+            {
+              "name": "PV",
+              "title": "访问用户"
+            },
+            {
+              "name": "Order",
+              "title": "下单用户"
+            },
+            {
+              "name": "OrderRate",
+              "title": "下单率"
+            }
+          ]
+        },
+        {
+          "type": "Histogram",
+          "data": {
+            "path": "/report/data/test_dashboard"
+          },
+          "columns": [
+            {
+              "name": "date",
+              "title": "日期"
+            },
+            {
+              "name": "PV",
+              "title": "访问用户"
+            },
+            {
+              "name": "Order",
+              "title": "下单用户"
+            },
+            {
+              "name": "OrderRate",
+              "title": "下单率"
+            }
+          ]
+        },
+        {
+          "type": "Bar",
+          "data": {
+            "path": "/report/data/test_dashboard"
+          },
+          "columns": [
+            {
+              "name": "date",
+              "title": "日期"
+            },
+            {
+              "name": "PV",
+              "title": "访问用户"
+            },
+            {
+              "name": "Order",
+              "title": "下单用户"
+            },
+            {
+              "name": "OrderRate",
+              "title": "下单率"
+            }
+          ]
+        },
+        {
+          "type": "Pie",
+          "data": {
+            "path": "/report/data/test_dashboard"
+          },
+          "columns": [
+            {
+              "name": "date",
+              "title": "日期"
+            },
+            {
+              "name": "PV",
+              "title": "访问用户"
+            },
+            {
+              "name": "Order",
+              "title": "下单用户"
+            },
+            {
+              "name": "OrderRate",
+              "title": "下单率"
+            }
+          ]
+        },
+        {
+          "type": "Ring",
+          "data": {
+            "path": "/report/data/test_dashboard"
+          },
+          "columns": [
+            {
+              "name": "date",
+              "title": "日期"
+            },
+            {
+              "name": "PV",
+              "title": "访问用户"
+            },
+            {
+              "name": "Order",
+              "title": "下单用户"
+            },
+            {
+              "name": "OrderRate",
+              "title": "下单率"
+            }
+          ]
+        },
+        {
+          "type": "Radar",
+          "data": {
+            "path": "/report/data/test_dashboard"
+          },
+          "columns": [
+            {
+              "name": "date",
+              "title": "日期"
+            },
+            {
+              "name": "PV",
+              "title": "访问用户"
+            },
+            {
+              "name": "Order",
+              "title": "下单用户"
+            },
+            {
+              "name": "OrderRate",
+              "title": "下单率"
+            }
+          ]
+        },
+        {
+          "type": "Scatter",
+          "data": {
+            "path": "/report/data/test_dashboard"
+          },
+          "columns": [
+            {
+              "name": "date",
+              "title": "日期"
+            },
+            {
+              "name": "PV",
+              "title": "访问用户"
+            },
+            {
+              "name": "Order",
+              "title": "下单用户"
+            },
+            {
+              "name": "OrderRate",
+              "title": "下单率"
+            }
+          ]
+        },
+        {
+          "type": "Map"
+        }
+      ]
+    },
+    "layout": {
+      "config": {
+        "colNum": 12,
+        "rowHeight": 100
+      },
+      "message": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 3,
+          "h": 4,
+          "i": 1,
+          "moved": false
+        },
+        {
+          "x": 3,
+          "y": 0,
+          "w": 4,
+          "h": 4,
+          "i": 2,
+          "moved": false
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "w": 5,
+          "h": 4,
+          "i": 3,
+          "moved": false
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "w": 3,
+          "h": 4,
+          "i": 4,
+          "moved": false
+        },
+        {
+          "x": 3,
+          "y": 4,
+          "w": 4,
+          "h": 4,
+          "i": 5,
+          "moved": false
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "w": 5,
+          "h": 4,
+          "i": 6,
+          "moved": false
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "w": 3,
+          "h": 4,
+          "i": 7,
+          "moved": false
+        },
+        {
+          "x": 4,
+          "y": 8,
+          "w": 6,
+          "h": 4,
+          "i": 8,
+          "moved": false
+        }
+      ]
+    }
+  }
+}

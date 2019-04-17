@@ -1,0 +1,309 @@
+{
+  "code": 0,
+  "data": {
+    "userId": "1",
+    "message": "获取用户信息成功！",
+    "userId":"111111",
+    "roles": [
+      "admin"
+    ],
+    "token": "admin",
+    "introduction": "我是超级管理员",
+    "avatar": "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif",
+    "name": "Super Admin",
+    "imagePath": "https://uatcdn.winhxd.com/bipic/b3147aeda7b841649c2ea244fbea63cd.png",
+    "menus": [
+      {
+        "id": "466680358876741645",
+        "menuName": "运行态",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "4666803588767416123",
+            "menuName": "测试报表",
+            "title":"高阳测试",
+            "path": "",
+            "configKey":"%2Freport%2Fmeta%2Fsys_code"
+          },
+          {
+            "id": "46668035881212323",
+            "menuName": "测试dashboard",
+            "path": "",
+            "configKey":"%2Fdashboard%2Fsys_code"
+          },
+          {
+            "id": "4666803588767416178",
+            "menuName": "测试IFrame",
+            "path": "/iframe/http%3A%2F%2Fwww.baidu.com"
+          },
+          {
+            "id": "4666803588767416178",
+            "menuName": "测试IFrame2",
+            "path": "/iframe/http%3A%2F%2Fwww.sina.com"
+          },
+          {
+            "id": "4666803588767416178",
+            "menuName": "测试IFrame3",
+            "path": "/iframe/http%3A%2F%2Fwww.qq.com"
+          },
+          {
+            "id": "1231321231287722",
+            "menuName": "测试tab",
+            "path": "/tab/%2Ftab%2Fmeta%2Fsys_code"
+          }
+        ]
+      },
+      {
+        "id": "466680358876741212",
+        "menuName": "开发元数据",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "466680358876124161231",
+            "menuName": "用户管理",
+            "path": "/config/%2Freport%2Fmeta%2Fuser_manager_code"
+          }
+        ]
+      },
+      {
+        "id": "4666803588767416495",
+        "menuName": "系统管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "466680358876741618231",
+            "menuName": "权限管理",
+            "path": "/config/%2Freport%2Fmeta%2Fauthority_management"
+          },
+          {
+            "id": "466680358876741661232",
+            "menuName": "成员管理",
+            "path": "/config/%2Freport%2Fmeta%2Fmember_management"
+          },
+          {
+            "id": "466680355887674161233",
+            "menuName": "订单时间设置",
+            "path": "/config/%2Freport%2Fmeta%2Fordertime_setting"
+          },
+          {
+            "id": "466680335887674161234",
+            "menuName": "修改密码",
+            "path": "/config/%2Fform%2Fmeta%2Fmodify_password"
+          }
+        ]
+      },
+      {
+        "id": "4666803588767484445515",
+        "menuName": "顾客管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "466680358876741617985144",
+            "menuName": "顾客管理",
+            "path": "/config/%2Freport%2Fmeta%2Fcustomer_manager"
+          }
+        ]
+      },
+      {
+        "id": "4666803588767416491",
+        "menuName": "订单管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "466680358876741618232",
+            "menuName": "订单列表",
+            "path": "/config/%2Freport%2Fmeta%2Forder_manager_code"
+          }
+        ]
+      },
+      {
+        "id": "4666803588767963357",
+        "menuName": "财务管理",
+        "icon": "documentation",
+        "path": "/financeManage/index"
+      },
+      {
+        "id": "1212121324354354354566",
+        "menuName": "促销管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "4666803588761212741618231",
+            "menuName": "优惠券模板管理",
+            "path": "",
+            "children": [
+              {
+                "id": "4666803588767416182dd435531",
+                "menuName": "模板新增",
+                "path": "/promotion/addtemplate"
+              },
+              {
+                "id": "46668035887674161767rr67231",
+                "menuName": "模板列表",
+                "path": "/config/%2Freport%2Fmeta%2Ftemplate_management"
+              }
+            ]
+          },
+          {
+            "id": "4666803588767416614343232",
+            "menuName": "适用对象规则管理",
+            "path": "",
+            "children": [
+              {
+                "id": "4666803512128876741618666231",
+                "menuName": "适用对象规则增加",
+                "path": "/appliyObjectRule/index"
+              },
+              {
+                "id": "4666803588767416232318277311",
+                "menuName": "适用对象规则列表",
+                "path": "/config/%2Freport%2Fmeta%2Ftype_rules_list"
+              }
+            ]
+          },
+          {
+            "id": "466680355812128767417761233",
+            "menuName": "优惠券坎级管理",
+            "path": "",
+            "children": [
+              {
+                "id": "46668035887674122323238886ee18231",
+                "menuName": "坎级规则添加",
+                "path": "/promotion/candyruleAdd"
+              },
+              {
+                "id": "46668035887675544111aa44541618231",
+                "menuName": "坎级规则列表",
+                "path": "/config/%2Freport%2Fmeta%2Frules_preferential_list"
+              }
+            ]
+          },
+          {
+            "id": "466680335887674144461234",
+            "menuName": "出资方规则管理",
+            "path": "/config/%2Freport%2Fmeta%2F",
+            "children": [
+              {
+                "id": "46668035887674433341618231",
+                "menuName": "出资方规则添加",
+                "path": "/contributiveRule/index"
+              },
+              {
+                "id": "4666803588767412255618231",
+                "menuName": "出资方规则列表",
+                "path": "/config/%2Freport%2Fmeta%2Frules_investors_list"
+              }
+            ]
+          },
+          {
+            "id": "466680355887666674161233",
+            "menuName": "优惠券领券管理",
+            "path": "/config/%2Freport%2Fmeta%2Fordertime_setting",
+            "children": [
+              {
+                "id": "46668035887677774441618231",
+                "menuName": "【优惠券】领券管理",
+                "path": "/couponReceive/index"
+              },
+              {
+                "id": "46668035887674888161821131sad",
+                "menuName": "【优惠券】领券管理列表",
+                "path": "/config/%2Freport%2Fmeta%2Froll_management_list"
+              }
+            ]
+          },
+          {
+            "id": "4666803358876741ada6884481234",
+            "menuName": "优惠券推券管理",
+            "path": "/config/%2Freport%2Fmeta%2Fmodify_password",
+            "children": [
+              {
+                "id": "4666803588767418d33886182dsad31",
+                "menuName": "【优惠券】推券规则",
+                "path": "/promotion/pushvolume"
+              },
+              {
+                "id": "46668035887679f9121941618ee231",
+                "menuName": "【优惠券】推券规则列表",
+                "path": "/config/%2Freport%2Fmeta%2Fpull_securities_list"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "466680358876714768",
+        "menuName": "系统管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "4666803588767442687",
+            "menuName": "订单时间设置",
+            "path": "/setOrderTime/index"
+          }
+        ]
+      },
+      {
+        "id": "466680358876741314",
+        "menuName": "消息管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "4666803588767411111",
+            "menuName": "自动推送消息",
+            "path": "/config/%2Freport%2Fmeta%2Fmsg_autopush"
+          },
+          {
+            "id": "46668035887674191069",
+            "menuName": "手工推送消息",
+            "path": "/config/%2Freport%2Fmeta%2Fmsg_handpush"
+          }
+        ]
+      },
+      {
+        "id": "466680358876741222",
+        "menuName": "系统管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "46668035887674222222",
+            "menuName": "组织管理",
+            "path": "/config/%2Freport%2Fmeta%2Forganization_manage"
+          },
+          {
+            "id": "46668035887674191082",
+            "menuName": "用户管理",
+            "path": "/config/%2Freport%2Fmeta%2Fuser_manage"
+          }
+        ]
+      },
+      {
+        "id": "46668035887674199",
+        "menuName": "资源管理",
+        "icon": "documentation",
+        "path": "",
+        "children": [
+          {
+            "id": "4666803588767422299",
+            "menuName": "资源管理",
+            "path": "/config/%2Freport%2Fmeta%2Fsource_manage"
+          },
+          {
+            "id": "4666803588767422298",
+            "menuName": "权限管理",
+            "path": "/authorization/index"
+          }
+        ]
+      }
+    ]
+  }
+}

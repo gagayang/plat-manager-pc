@@ -1,0 +1,232 @@
+{
+  "code": 0,
+  "data": {
+    "meta": {
+      "path": "/report/data/sys_code",
+      "type": "report",
+      "id":"sys_code",
+      "code": "sys_code_report",
+      "title": "测试列表title2",
+      "buttons":[
+        {
+          "name": "新增",
+          "icon": null,
+          "event": {
+            "type": "router",
+            "path": "",
+            "configKey":"/form/meta/sys_code",
+            "callBack": {
+
+            }
+          }
+        },
+        {
+          "name": "新增DragFrom",
+          "icon": null,
+          "event": {
+            "type": "router",
+            "path": "",
+            "configKey":"/form/meta/drag_sys_code",
+            "callBack": {
+
+            }
+          }
+        },
+        {
+          "name": "查询",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "path": "/from/sys_code/submit"
+          }
+        },
+        {
+          "name": "导出",
+          "icon": null,
+          "event": {
+            "type": "export",
+            "path": "/from/sys_code/export"
+          }
+        },
+        {
+          "name": "重置",
+          "icon": null,
+          "event": {
+            "type": "reset"
+          }
+        },
+        {
+          "name": "自定义",
+          "icon": null,
+          "event": {
+            "type": "custom",
+            "script": "function(){alert(1)}"
+          }
+        },
+        {
+          "name": "上传excel",
+          "icon": null,
+          "event": {
+            "type": "upload",
+            "path": "order/deleteBatch"
+          }
+        },
+        {
+          "name":"批量删除",
+          "icon":"",
+          "event":{
+            "type":"batch",
+            "ajaxType": "post",
+            "path":"order/deleteBatch",
+            "confirm":{
+              "title": "确认提示",
+              "message":"确定这样操作吗?"
+            },
+            "params": [
+              "id","orderNo"
+            ]
+          }
+        }
+      ],
+      "columns": [
+        {
+          "type": "index",
+          "name": "",
+          "title": "序号",
+          "align": "center",
+          "width": "50",
+          "fixed": "left"
+        },
+        {
+          "type": "selection",
+          "name": "",
+          "title": "多选",
+          "align": "center",
+          "width": "60",
+          "fixed": "left"
+        },
+        {
+          "name": "prodPer",
+          "title": "产品单价"
+        },
+        {
+          "name": "prodBrand",
+          "title": "产品品牌"
+        },
+        {
+          "name": "prodType",
+          "title": "产品类别",
+          "type": "custom",
+          "event": {
+            "template": "<a style='background: red'>${prodType}</a>",
+            "type": "dialog",
+            "path": "",
+            "configKey": "%2Freport%2Fmeta%2Fsys_code"
+          }
+        },
+        {
+          "name": "creatTime",
+          "title": "创建时间",
+          "sortable": true,
+          "type": "custom",
+          "event": {
+            "template": "<a style='background: red'>${creatTime}</a>",
+            "type": "router",
+            "params": [
+              "prodBrand","prodPer"
+            ],
+            "path": "",
+            "configKey":"/form/meta/sys_code",
+            "callBack": {
+            }
+          }
+        },
+        {
+          "name": "updateTime",
+          "title": "更新时间",
+          "sortable": true,
+          "formatter": "function(row, column, cellValue, index) {return  cellValue.value}"
+        },
+        {
+          "name": "attribute1",
+          "title": "属性1"
+        },
+        {
+          "name": "attribute2",
+          "title": "属性2"
+        },
+        {
+          "name": "attribute3",
+          "title": "属性3"
+        },
+        {
+          "name": "",
+          "title": "操作",
+          "type": "button",
+          "buttons": [
+            {
+              "name": "编辑",
+              "icon": null,
+              "isShow": "function(index, row, button) {return true}",
+              "event": {
+                "type": "router",
+                "params": ["prodPer","prodBrand"],
+                "static": {
+                  "method": "update"
+                },
+                "path":"",
+                "configKey": "/form/meta/sys_code"
+              }
+            },
+            {
+              "name": "删除",
+              "icon": null,
+              "event": {
+                "type": "ajax",
+                "ajaxType":"delete",
+                "params": ["prodPer","prodBrand"],
+                "path": "/report/delete/sys_code"
+              }
+            },
+            {
+              "name": "详情",
+              "icon": null,
+              "event": {
+                "type": "router",
+                "params": ["prodPer","prodBrand"],
+                "static": {
+                  "method": "detail"
+                },
+                "configKey": "/form/meta/sys_code",
+                "path": ""
+              }
+            }
+          ]
+        }
+      ],
+      "params": [
+        {
+          "name": "productName",
+          "inputModel": "input",
+          "title": "产品名称",
+          "value": "1",
+          "placeholder":"请输入产品名称",
+          "isHidden": false
+        },
+        {
+          "name": "prodPer",
+          "inputModel": "input",
+          "title": "产品单价",
+          "placeholder":"请输入产品单价",
+          "value": "",
+          "isHidden": false
+        }
+      ]
+    },
+    "page": {
+      "pageNo": 1,
+      "pageSize": 20,
+      "TotalRows": 0
+    }
+  }
+}

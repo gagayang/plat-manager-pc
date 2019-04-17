@@ -1,0 +1,103 @@
+{
+  "code": 0,
+  "data":{
+    "pageNo" : 1,
+    "pageSize": 20,
+    "totalPages": 2,
+    "totalRows": 19,
+    "info":{
+      "aa": "aa",
+      "bb": "bb"
+    },
+    "data": [
+      {
+        "id":"3",
+        "prodPer": "10",
+        "prodBrand": "可口可乐1",
+        "prodType": "饮料",
+        "nationwide": "全国",
+        "createTime": "2018-3-1",
+        "updateTime": {
+          "value": "2018-4-1"
+        },
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":12345678
+      },
+      {
+        "id":"1",
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "nationwide": "",
+        "createTime": "2018-3-1",
+        "updateTime": {
+          "value": "2018-4-1"
+        },
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":12345678
+      },{
+        "id":"2",
+        "prodPer": "10",
+        "prodBrand": "可口可乐110",
+        "prodType": "饮料",
+        "createTime": "",
+        "updateTime": {
+          "value": "2018-4-1"
+        },
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":12345678
+      },{
+        "id":"30",
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "createTime": "2018-3-1",
+        "updateTime": {
+          "value": "2018-4-1"
+        },
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":12345678
+      },{
+        "id":"4",
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "createTime": "2018-3-1",
+        "updateTime": {
+          "value": "2018-4-1"
+        },
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":12345678
+      },{
+        "id":"5",
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "createTime": "2018-3-1",
+        "updateTime": {
+          "value": "2018-4-1"
+        },
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":12345678
+      },{
+        "id":"6",
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "createTime": "2018-3-1",
+        "updateTime": {
+          "value": "2018-4-1"
+        },
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":12345678
+      }
+    ]
+  }
+}

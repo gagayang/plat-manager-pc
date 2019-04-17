@@ -1,0 +1,69 @@
+{
+    "status": "0",
+    "data": {
+      "meta": {
+        "type":"report",
+        "code": "area",
+        "path": "/report/data/area",
+        "title": "下单区域",
+        "buttons": [
+          {
+            "name": "搜索",
+            "icon": null,
+            "event": {
+              "type": "submit",
+              "path": "/form/customer/submit"
+            }
+          }
+        ],
+        "columns": [
+          {
+            "name": "",
+            "title": "",
+            "type": "selection"
+          },
+          {
+            "name": "areaId",
+            "title": "区域编码"
+          },
+          {
+            "name": "areaName",
+            "title": "区域名称"
+          }
+        ],
+        "params": [
+          {
+            "name": "province",
+            "inputModel": "input",
+            "title": "省份",
+            "value": "",
+            "placeholder": "",
+            "isHidden": false
+          },
+          {
+            "name": "city",
+            "inputModel": "input",
+            "title": "市",
+            "placeholder": "",
+            "value": "",
+            "isHidden": false
+          },
+          {
+            "name": "county",
+            "inputModel": "input",
+            "title": "区/县",
+            "placeholder": "",
+            "value": "",
+            "isHidden": false
+          }
+        ],
+        "returnDisplay": "areaName",
+        "returnValue": "areaId"
+      },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+    }
+  }
